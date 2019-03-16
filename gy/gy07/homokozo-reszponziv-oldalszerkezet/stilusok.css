@@ -1,0 +1,27 @@
+body
+{
+	margin: 0px; /*van margója bodynak alapból, le kell nullázni ha végiog akarom színezni*/
+}
+
+section, aside
+{
+	overflow: hidden; /*kikapcsolva margót nem színezi, nem burkolja be a section*/
+}
+
+section
+{
+	background-color: lightgreen;
+}
+
+aside
+{
+	background-color: salmon;
+}
+
+/*ha elég nagy a böngészőablak akk rakja egymás mellé*/
+@media (min-width: 680px) /*kijelző tulajdonságait vizsgálja,ha min 680px szélességű screen akk életbe lépnek ezek a beállítások*/
+{
+	#box {display: flex;}
+	section {flex: 3;}
+	aside {flex: 1;}
+}

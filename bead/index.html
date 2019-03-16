@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<title>Testépítés</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="stilus.css" title="default">
+		<link rel="alternate stylesheet" type="text/css" href="akadalymentes.css" title="alternate">
+		<script type="text/javascript" src="styleswitcher.js"></script>
+	</head>
+	<body>
+		<div id="wrap">
+			<header>
+				<a href="#" onclick="if (getActiveStyleSheet() == 'alternate') setActiveStyleSheet('default'); else setActiveStyleSheet('alternate'); return false;"><img src="img/akadalymentes.jpg" alt="Váltás akadálymentes verzióra"></a>
+				<a href="#tartalom" style="position:absolute; left:-9999px;">Ugrás a tartalomra</a>
+				<p id="fejlec">Testépítés</p>
+			</header>
+
+			<nav id="menu">
+				<ul>
+					<li><a href="#" id="kezdolap" class="akt">Kezdőlap</a></li>
+					<li><a href="gyakorlatok.html">Gyakorlatok</a></li>
+					<li><a href="termek.html">Edzőtermek</a></li>
+					<li><a href="kerdoiv.html">Kérdőív</a></li>
+				</ul>
+			</nav>
+			
+			<nav id="nyomvonal">
+				<ul>
+					<li>&gt;&gt; Kezdőlap</li> 
+				</ul>
+			</nav>
+			
+			<div id="tartalom" class="index">
+				<article>
+					<h1>Kezdőlap</h1>
+					<p>A közhidelemmel ellentétben a testépítés nem csak annyiból áll, hogy minél több izmot felszedünk és felhőként feszítünk az utcán. Ezt az állapotot amúgy is csak szteroidok segítségével lehet elérni. <strong>Számtalan előny</strong>e van a súlyzós edzésnek, például zsírégetésre az egyik legkiválóbb mozgásforma. (Természetesen a helyes táplálkozás nem elhanyagolható.) Pörgeti az anyagcserét, és az egész szervezetet is, energikusabb leszel. A kardiovaszkuláris rendszert is fejleszti, jelentősen csökkenhet számos szív- és érrendszeri betegség kialakulásának a kockázata.<br>
+					Ez csak pár érv volt a sport mellett, még sorolhatnánk órákig.
+					</p>
+
+					<figure>
+						<video controls poster="img/poster.jpg">
+							<source src="video/motivation.mp4" type="video/mp4">A böngésződ nem tudja lejátszani a videót.
+						</video>
+						<figcaption><p>Videó hossza: 2:44<br>
+						A videó szöveges leírása <a href="video.html">itt</a> megtekinthető</p></figcaption>
+					</figure>
+				</article>
+
+				<aside>
+					<h2>Tudtad?</h2>
+					<p>A nőknek nem lesz férfias kinézetük a súlyzós edzéstől, ugyanis a szervezetükben nincs annyi tesztoszteron, hogy kimagasló mennyiségű izmot építsenek. Az elférfiasodott testépítőnők külső hormonok segítségével érték el kinézetüket. <i>Egészséges, tiszta táplálkozás</i>sal és <i>rendszeres edzés</i>sel feszes, tónusos, nőies formát lehet elérni, nem leszel Hulk. Úgyhogy nyomás a terembe, csajok!</p>
+				</aside>
+			</div>
+
+			<footer>
+				<p><strong>Forrás: </strong><a href="http://shop.builder.hu/">Shop.Builder</a>, <a href="https://www.youtube.com/watch?v=P_eFY-drWtI">YouTube</a></p>
+			</footer>
+		</div>
+	</body>
+</html>

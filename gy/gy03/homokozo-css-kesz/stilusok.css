@@ -1,0 +1,72 @@
+/* A betûméretezés a többi karakter- és bekezdéstulajdonság után egyben tárgyalandó */
+
+h1
+{
+	color: blue;
+	/* font-family: Verdana, sans-serif; */
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size: 300%; /* a szülõelem (body) betûméretéhez képest */
+}
+
+h2
+{
+	color: green;
+	font-style: italic;
+	font-size: 150%; 
+}
+
+p
+{
+	text-align: justify;
+}
+
+body
+{
+	font-size: 100%; /* a standard betûmérethez képest (12pt) */
+}
+
+#kiemelt /* azonosító, egyszer használható szabály szerint */
+{
+	color: red;
+	font-style: normal;
+}
+
+.megjegyzes /* osztály, többször is használható szabály szerint */
+{
+	font-size: 80%;
+	color: gray;
+}
+
+#doboz1
+{
+	border: 3px dashed orange;
+	padding: 10px;
+	margin-left: 50px;
+}
+
+#doboz2
+{
+	width: 50%; /* a szülõelem (body) szélességéhez képest */
+	margin: auto; /* doboz középre zárása */
+	border-top: 1px solid black;
+	border-bottom: 3px dotted red;
+	padding: 10px 0px 30px 0px; /* fent-jobbra-lent-balra */
+	text-align: center; /* tartalom középre zárása */
+}
+
+a
+{
+	color: red;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+a:visited
+{
+	color: brown;
+}

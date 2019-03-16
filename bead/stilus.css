@@ -1,0 +1,329 @@
+﻿/*--------------------Oldalszerkezet--------------------*/
+
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+	background: url(img/hatter.jpg) no-repeat fixed center;
+	background-size: cover;
+	font-family: sans-serif;
+	min-width: 640px;
+	max-width: 4096px;
+}
+
+article, section, aside, footer
+{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+footer
+{
+	padding-bottom: 5px;
+}
+
+#wrap
+{
+	background-color: rgba(111,114,123, 0.9);
+	width: 80%;
+	margin: auto;
+	color: black;
+}
+
+#fejlec
+{
+	text-align: center;
+	font-size: 300%;
+	font-family: "Garamond";
+	padding: 15px;
+	margin: auto;
+}
+
+header > a > img
+{
+	float: right;
+	margin: 5px;
+}
+
+footer
+{
+	font-size: 80%;
+}
+
+a
+{
+	color: mediumblue;
+}
+
+a:visited
+{
+	color: #2d004d;
+}
+
+/**********************Menü**********************/
+
+#menu ul
+{
+	list-style-type: none;
+	padding: 10px 0px 10px 20px;
+	background-color: #202020;
+	margin: 0px;
+}
+
+#menu li
+{
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#menu a
+{
+	text-decoration: none;
+	color: white;
+	padding: 10px 10px 10px 10px;
+}
+
+#menu #kezdolap
+{
+	color: #FFFF00;
+}
+
+#menu a[href="#"], #menu .akt, #menu #akt
+{
+	background-color: #484848;
+}
+
+#menu a:hover, #menu #kezdolap:hover
+{
+	color: #CC9900;
+}
+
+/**********************Nyomvonal**********************/
+
+#nyomvonal ul
+{
+	list-style-type: none;
+	margin: 5px;
+	padding: 5px;
+}
+
+#nyomvonal li
+{
+	display: inline-block;
+}
+
+/*--------------------Kezdőlap--------------------*/
+
+.index
+{
+	display: flex;
+	flex-direction: row;
+	width: 98%;
+	margin: auto;
+}
+
+.index > article
+{
+	flex: 5;
+	max-width: 70%;
+}
+
+.index > aside
+{
+	flex: 1;
+	font-size: 80%;
+	max-width: 70%;
+}
+
+.index figcaption
+{
+	margin: auto;
+	text-align: center;
+}
+
+video
+{
+	max-width: 100%;
+	display: block;
+	margin: auto;
+	opacity: 1.0;
+}
+
+article figcaption
+{
+	padding: 5px;
+}
+
+/*--------------------Gyakorlatok menüpont (izomcsoportok felsorolása)--------------------*/
+
+#izomcsoportok
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	margin: auto;
+}
+
+#izomcsoportok section
+{
+	margin: auto;
+	text-align: center;
+}
+
+#izomcsoportok section img
+{
+	opacity: 0.7;
+}
+
+#izomcsoportok img:hover
+{
+	opacity: 1.0;
+}
+
+#izomcsoportok figure
+{
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+#izomcsoportok figcaption
+{
+	font-style: italic;
+	font-weight: bold;
+	font-family: serif;
+}
+
+#izomcsoportok h2
+{
+	margin-top: 0px;
+}
+
+/*--------------------Különböző izomcsoportok (Gyakorlatok almenük)--------------------*/
+
+#icsgyak ul /*gyakorlatok listája*/
+{
+	padding-left: 30px;
+}
+
+#icsleiras h2
+{
+	font-size: 122%;
+	font-style: italic;
+}
+
+/*--------------------Különböző gyakorlatok--------------------*/
+
+#gyakorlat h2
+{
+	font-size: 120%;
+	font-style: italic;
+	margin-bottom: 0px;
+}
+
+#gyakorlat p
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#gyakorlat img
+{
+	display: block;
+	margin: auto;
+}
+
+/*--------------------Táblázat--------------------*/
+
+table
+{
+	width: 99%;
+	margin: auto;
+	border-spacing: 0px;
+	padding-bottom: 40px;
+}
+
+td, th
+{
+	border-bottom: solid;
+	padding: 5px;
+}
+
+td.nah
+{
+	border-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+table caption, table summary
+{
+	text-align: left;
+}
+
+/*--------------------Kérdőív--------------------*/
+
+fieldset
+{
+	margin-bottom: 30px;
+}
+
+#gomb
+{
+	margin: 10px;
+}
+
+#gomb input
+{
+	margin-bottom: 30px;
+	margin-right: 30px;
+	margin-left: 10px;
+}
+
+#csillag
+{
+	font-size: 80%;
+}
+
+legend
+{
+	font-weight: bold;
+}
+
+.textbox
+{
+	width: 100%;
+	max-width: 250px;
+}
+
+/*--------------------Nyomtatás--------------------*/
+
+@media print
+{
+	body
+	{
+		background: none;
+	}
+	#wrap
+	{
+		width: 800px;
+	}
+	#menu
+	{
+		display: none;
+	}
+	#wrap, #menu ul, #menu .akt, #menu #akt, #menu a[href="#"]
+	{
+		background-color: white;
+	}
+	#menu #kezdolap, #menu a[href="#"], #menu a, a, a:active, a:visited, #menu .akt, #menu #akt
+	{
+		color: black;
+	}
+	video
+	{
+		display: none;
+	}
+}

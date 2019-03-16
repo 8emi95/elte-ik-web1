@@ -1,0 +1,157 @@
+﻿/*--------------------Oldalszerkezet--------------------*/
+
+body
+{
+	margin: 10px 10px;
+	background: black;
+	color: white;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
+article, section, aside, footer
+{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+footer
+{
+	padding-bottom: 5px;
+}
+
+#fejlec
+{
+	font-size: 200%;
+	font-weight: bold;
+	margin: 10px 0px 10px 0px;
+}
+
+header > a > img
+{
+	float: right;
+	margin: 5px;
+}
+
+a, a:visited
+{
+	color: yellow;
+}
+
+/**********************Menü**********************/
+
+#menu ul
+{
+	font-size: 120%;
+}
+
+#menu a[href="#"], #menu #akt
+{
+	font-weight: bold;
+	font-style: italic;
+}
+
+/**********************Nyomvonal**********************/
+
+#nyomvonal ul
+{
+	list-style-type: none;
+}
+
+#nyomvonal li
+{
+	display: inline-block;
+}
+
+/*--------------------Kezdőlap--------------------*/
+
+.index figcaption, video
+{
+	display: block;
+	margin: auto;
+	text-align: center;
+	max-width: 100%;
+}
+
+/*--------------------Gyakorlatok menüpont (izomcsoportok felsorolása)--------------------*/
+
+#izomcsoportok figure
+{
+	margin-bottom: 20px;
+}
+
+#izomcsoportok h2
+{
+	margin-top: 0px;
+}
+
+/*--------------------Különböző gyakorlatok--------------------*/
+
+#gyakorlat h2
+{
+	font-size: 120%;
+	margin-bottom: 0px;
+}
+
+#gyakorlat img
+{
+	display: block;
+	margin: auto;
+}
+
+/*--------------------Táblázat--------------------*/
+
+table
+{
+	border-collapse: collapse;
+}
+
+th
+{
+	border: 4px solid white;
+}
+
+td
+{
+	border: 1px solid white;
+}
+
+table caption, table summary
+{
+	text-align: left;
+}
+
+/*--------------------Kérdőív--------------------*/
+
+fieldset
+{
+	margin-bottom: 30px;
+}
+
+legend
+{
+	font-weight: bold;
+}
+
+#csillag
+{
+	font-size: 80%;
+}
+
+.textbox
+{
+	width: 100%;
+	max-width: 600px;
+}
+
+input
+{
+	font-size: 120%;
+	background-color: gray;
+}
+
+select
+{
+	font-size: 120%;
+	background-color: gray;
+}

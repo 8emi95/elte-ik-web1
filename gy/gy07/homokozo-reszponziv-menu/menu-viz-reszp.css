@@ -1,0 +1,53 @@
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+	background-color: lightgray;
+	overflow: hidden;
+}
+
+nav li
+{
+	float: left; /*listaelemeket balra*/
+}
+
+nav li a
+{
+	display: inline-block; /*nincs sortörés előtte-utána, block: lehet méretezni*/
+	background-color: lightgrey;
+	padding: 12px;
+    color: black;
+	text-decoration: none;
+	line-height: 100%;
+}
+
+nav li a:hover
+{
+    background-color: gray;
+    color: white;
+}
+
+nav li a[href="#"]
+{
+	background-color: limegreen;
+    color: white; 
+}
+
+#ikon {display: none;} /*ha a felbontás elég nagy, meg se jelenjen*/
+
+@media (max-width: 600px) /*kis kijelzőnél*/
+{
+	/*normál*/
+	nav li:not(:first-child) {display: none;} /*elsőn kívüli összes gyerek tűnjön el*/
+	#ikon {display:inline-block; float: right;} /*ikon jobb oldalon*/
+	
+	/*kibontott menü*/
+	nav ul.kibont li {display: block; float: none;} /*egymás alatt legyenek a menüpontok*/
+	
+	/*menü gomb a lista alján alapból*/
+	nav ul.kibont {position: relative;} /*ehhez képest igazítja az ikont*/
+	nav ul.kibont #ikon {position: absolute; right: 0; top: 0;} /*jobb felső sarokban marad kibontásnál*/
+	nav ul.kibont li a {display: block;} /*teljes szélesség kitöltése*/
+	/*li-t nem muszáj berakni közé*/
+}

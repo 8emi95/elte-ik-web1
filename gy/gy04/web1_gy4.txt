@@ -1,0 +1,17 @@
+cellák közti margó eltûtetése -> border-collapse
+float -> körbefuttatásSAL
+
+logikai egységek kijelölése
+formázás
+
+div: blokk elem, formázástól mentes
+header footer
+
+szemantikus szerekezeti elemek: kiderül mire használod
+figure: csoportosítás
+áttekinthetõbb h minek mi a funkciója(?)
+css - vizuálisan láthatóvá esszük, formázzuk
+
+típusok
+blokk: sortörés elõtte utána
+inline: 

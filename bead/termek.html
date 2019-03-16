@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<title>Edzőtermek | Testépítés</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="stilus.css" title="default">
+		<link rel="alternate stylesheet" type="text/css" href="akadalymentes.css" title="alternate">
+		<script type="text/javascript" src="styleswitcher.js"></script>
+	</head>
+	<body>
+		<div id="wrap">
+			<header>
+				<a href="#" onclick="if (getActiveStyleSheet() == 'alternate') setActiveStyleSheet('default'); else setActiveStyleSheet('alternate'); return false;"><img src="img/akadalymentes.jpg" alt="Váltás akadálymentes verzióra"></a>
+				<a href="#tartalom" style="position:absolute; left:-9999px;">Ugrás a tartalomra</a>
+				<p id="fejlec">Testépítés</p>
+			</header>
+
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html" id="kezdolap">Kezdőlap</a></li>
+					<li><a href="gyakorlatok.html">Gyakorlatok</a></li>
+					<li><a href="#" id="akt">Edzőtermek</a></li>
+					<li><a href="kerdoiv.html">Kérdőív</a></li>
+				</ul>
+			</nav>
+			
+			<nav id="nyomvonal">
+				<ul>
+					<li>&gt;&gt; Edzőtermek</li>
+				</ul>
+			</nav>
+
+			<div id="tartalom">
+				<section>
+					<h1>Edzőtermek</h1>
+					<table>
+						<caption>
+							<details>
+								<summary>
+									Íme, néhány népszerű edzőterem Budapesten:
+								</summary>
+								<p>Kukucs!</p>
+							</details>
+						</caption>
+						<thead>
+							<tr>
+								<th>Név</th>
+								<th>Cím</th>
+								<th>Honlap</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="6">Gilda Max</td>
+								<td class="nah">Budapest, Október huszonharmadika u. 8-10., 1117</td>
+								<td rowspan="6"><a href="http://www.gilda-max.com/">gilda-max.com</a></td>
+							</tr>
+							<tr>
+								<td class="nah">Budapest, Árpád fejedelem útja 26-28, 1023</td>
+							</tr>
+							<tr>
+								<td class="nah">Budapest, Flórián tér 6, 1033</td>
+							</tr>
+							<tr>
+								<td class="nah">Budapest, Hunyadi János út 19, 1117</td>
+							</tr>
+							<tr>
+								<td class="nah">Budapest, Váci útca 35, 1134</td>
+							</tr>
+							<tr>
+								<td>Budapest, Hungária krt. 162-166, 1146</td>
+							</tr>
+							<tr>
+								<td>Mecca</td>
+								<td>Budapest, Béke u. 21-27, 1135.</td>
+								<td><a href="http://meccagym.hu/">meccagym.hu</a></td>
+							</tr>
+							<tr>
+								<td>Vida Fitness</td>
+								<td>Budapest, Fehérvári út 87, 1119</td>
+								<td><a href="http://vidafitness.hu/">vidafitness.hu</a></td>
+							</tr>
+							<tr>
+								<td>Flex Gym</td>
+								<td>Budapest, Márvány u. 17, 1012</td><td>
+								<a href="http://www.flexgym.hu/">flexgym.hu</a></td>
+							</tr>
+							<tr>
+								<td>BodyBuilder Gym</td>
+								<td>Budapest, Árpád Üzletház, Árpád út 112, 1042</td>
+								<td><a href="http://bodybuildergym.hu/">bodybuildergym.hu</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+			</div>
+		</div>
+	</body>
+</html>

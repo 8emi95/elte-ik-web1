@@ -1,0 +1,27 @@
+BOOTSTRAP:
+ha js-t, css-t máshol is fel akarnád használni
+letölteni se kell, headben hivatkozás
+
+lefelé görgetéssel az egész tartalmat meg tudom nézni (ma népszerû)
+
+táblázatos logika:
+sorokat vezetsz be (row osztályú divek), "cellákat" helyezel el
+automatikusan reszponzív
+speciális szimbólumok
+
+lenyitható menü
+
+képlapozgató
+
+
+mobil:
+- viewport: telón görgetni zoomolni lehet (pásztázás), ma le lehet tiltani (user-scalable="no", metában viewport, nagyítás egyszeres)
+css-t érdemes elõször mobilra tervezni, utána megadni nagyobb kijelzõre
+
+container: bizonyos méretnél változik
+fluid: folyamatosan változik az elemek mérete, elrendezése
+
+col-sm-4
+col: oszlopok
+sm: milyen típusú/méretû kijelzõnél (táblázat)
+4: hány 12ednél

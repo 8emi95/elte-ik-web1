@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+xml:lang="hu" lang="hu">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<title>Triviális Algebra - Kapcsolat</title>
+		<script type="text/javascript">
+			function changeCSS(cssFile, cssLinkIndex) {
+			var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+			var newlink = document.createElement("link");
+			newlink.setAttribute("rel", "stylesheet");
+			newlink.setAttribute("type", "text/css");
+			newlink.setAttribute("href", cssFile);
+ 			document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+			}
+		</script>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link href='https://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'/>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+	</head>
+	<body>
+		<div class="head">
+			Triviális Algebra
+		</div>
+		
+		<div class="nav">
+			<ul>
+				<li><a href="index.html">Kezdőoldal</a></li>
+				<li><a href="tortenelem.html">A linalg történelme</a></li>
+				<li><a href="kidolgozas.html">Kidolgozások</a></li>
+				<li><a href="felmero.html">Felmérő</a></li>
+				<li><a href="#">&gt;Kapcsolat&lt;</a></li>
+			</ul>
+		</div>
+		<div class="main">
+			<h1>Elérhetőségeim:</h1>
+			
+			<p>Email cím: fake@fake.com
+			<br />Cím: ELTE IK lovarda 0-24</p>
+			
+			<p class="kozep">
+				<a href="panda2.jpg" title="Az igazi énem" >
+					 <img src="panda.jpg" alt="Egy kép rólam" title="Egy kép rólam" id="panda1" />
+				</a>
+				<br />
+				Egy kép rólam (klikk a képre az igazi énemért)
+			</p>
+			<form method="post" action="mailto:gipsz@jakab.hu">
+				<p>
+					<label for="ora">Igényt tartok egy órára!</label>
+					<input type="checkbox" id="ora" name="ora" value="ker" />
+					<br />
+					<label for="email">Email cím: </label>
+					<input type="text" id="email" name="email" />
+					<br /><br />
+					<input type="submit" value="Továbbítás" />
+					<input type="reset" value="Törlés" />
+				</p>
+			</form>
+			<br />
+			<a href="#" onclick="changeCSS('style.css', 0);">Normál</a>
+			<a href="#" onclick="changeCSS('styles2.css', 0);">Látássérült</a>
+		</div>
+	</body>
+</html>

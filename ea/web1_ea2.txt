@@ -1,0 +1,16 @@
+css - lépcsõzetes stílus
+
+css utasítás 2 rész
+szektor blokk
+h1      {color: blue}
+
+sorrend fontos
+felsõ, jobb oldal, alsó, bal oldal
+
+hsl: hue saturation lightness
+
+rgba: alpha
+
+fallback
+
+dokumentumfa: balról jobbra olvasni

@@ -1,0 +1,33 @@
+témák:
+- érdekel de nincs közöd hozzá
+- érdekel, van közöd hozzá
+- elképzelt szolgáltatás -> LEGJOBB (?) fiktív/konkrét
+
+reszponzív elrendezés: beadandóhoz nem szükséges
+ûrlap: kell!
+
+szabadon választható irányelvek
+
+táblázat:
+- fekete nyíl?
+- caption: táblázataláírás?
+
+61-3
+XHTML fejlesztése leállt
+v az egyikre v a másikra, mind2re nem lehet
+egy kivételével az összes html5 szerint, egyet butítsunk vissza xthml-re (ne az ûrlaposat lehetõleg)
+mindegyik tag legalább egyszer vhol
+08 video: böngészõk vállalják h le tudnak játszani videókat, több fájlformátumban is meg lehet adni, NEM LEHET YTRÕL (max ha letöltöd), néhány mb-os legyen
+11 bizonyos keretek között reagáljon (min max szélesség)
+13 bev tárgy bef
+15 külalakkal létezõ funkciókat ne imitáljuk (pl címsor - vastag nagybetûs bekezdés NO)
+18 google betûtípus jó
+19 betûméret %ban
+22 nem látogatott link legyen élénkebb
+24 manapság nincsenek aláhúzva (?) csak akkor h ráhúzod az egeret akk jó
+25 nosalty pl, css-t eszközre is be lehet állítani, MINDENKÉPP KELL NÉHÁNY FORMÁZÁS
+35 h1 + h3 NEM, kell legyen h2 közte
+06 js gyengénlátó változat (53) 2 légy 1 csapásra, slideshow (képre kattintva egész galériát végiglapozhatom)
+53 megõrzi az alternatív stíluslapot oldalak között
+54 szürkeárnyalatban elvész-e info?, színtévesztõknek * karakter
+55 szövegfelolvasó ne olvassa fel folyton pl a menüpontokat, tartalmi részre ugorjon rögtön (html-en belülre hivatkozás)

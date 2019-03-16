@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<title>Triviális Algebra - Felmérő</title>
+		<link rel="stylesheet" type="text/css" href="style.css" title="default" />
+		<link rel="alternate stylesheet" type="text/css" href="gyengenlato.css" title="alternate" />
+		<script type="text/javascript">
+			function changeCSS(cssFile, cssLinkIndex) {
+			var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+			var newlink = document.createElement("link");
+			newlink.setAttribute("rel", "stylesheet");
+			newlink.setAttribute("type", "text/css");
+			newlink.setAttribute("href", cssFile);
+ 			document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+			}
+		</script>
+		<meta charset="utf-8">
+		<link href='https://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<header>
+			Triviális Algebra
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="index.html">Kezdőoldal</a></li>
+				<li><a href="tortenelem.html">A linalg történelme</a></li>
+				<li><a href="kidolgozas.html">Kidolgozások</a></li>
+				<li><a href="#">Felmérő</a></li>
+				<li><a href="kapcsolat.html">Kapcsolat</a></li>
+			</ul>
+		</nav>
+		<section id="main">
+			<h1>Tudásfelmérő</h1>
+			<fieldset>
+				<legend>1. kérdés</legend>
+				<p>
+					<label for="kerdes" class="bold">Hogy hangzik a lineáris függetlenség definíciója?</label>
+				</p>
+				<br><textarea id="kerdes" name="Text1" cols="70" rows="5"></textarea>
+				<br><br>
+				<details>
+					<summary>Válasz</summary>
+					<p><img src="linfugg.jpg" alt="Lineáris függetlenség definíciója"> </p>
+				</details>
+			</fieldset>
+				<br>
+				
+			<fieldset>
+				<legend>2. kérdés</legend>
+				<p class="bold">Egy bilineáris forma kvadratikus alakjának pozitív szemidefinitsége szükséges ahhoz,
+				hogy a művelet euklédeszi térbéli legyen.</p>
+				<br>
+				<input type="radio" name="valasztas" value="alap" id="v1" checked>
+				<label for="v1">Igaz</label><br>
+				<input type="radio" name="valasztas" value="kozep" id="v2">
+				<label for="v2">Hamis</label><br>
+				<details>
+					<summary>Válasz</summary>
+					<p>Ez az állítás helyes.</p>
+				</details>
+			</fieldset>
+				<br>
+				
+			<fieldset>
+				<legend>3. kérdés</legend>
+				<p>
+					<label for="szulhonap" class="bold">Az alábbi mátrix determinánsa? :</label>
+				</p>
+				<p class="kozep"><img src="matrix.jpg" alt="Feladatbéli mátrix"></p>
+				<br>
+				<select size="1" name="szulhonap" id="szulhonap">
+					<option value="0" selected>0</option>
+					<option value="sin(cos(x))">sin(cos(x))</option>
+					<option value="sin(x)/10">sin(x)/10</option>
+					<option value="sin(pi)">sin(pi)</option>
+					<option value="-40">-40</option>
+					<option value="-10">-10</option>
+					<option value="40">40</option>
+				</select>
+				<details>
+					<summary>Válasz</summary>
+					<p>A mátrix determinánsa -40.</p>
+				</details>
+			</fieldset>
+			<br>
+			<footer>
+				<a href="#" onclick="changeCSS('style.css', 0);">Normál</a>
+			<a href="#" onclick="changeCSS('styles2.css', 0);">Látássérült</a>
+			</footer>
+		</section>
+	</body>
+</html>

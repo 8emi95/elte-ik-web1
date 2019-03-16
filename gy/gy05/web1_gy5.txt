@@ -1,0 +1,46 @@
+div: fõ, klasszikus elemeket nem illik vele használni, ott html tagek
+
+------------------------------------------------------------------------------------
+
+mai elrendezés még nem reszponzív: nem tud reagálni rá h miylen eszközön/böngészõben nézed
+egymás mellett vízszintesen is dobozok
+
+h1 újra - részenkénti újracímsorozás (nem mindenhol ajánlják)
+h1 -> h3: nem szabad kihagyni, h2-t css-sel formázni helyette
+
+egy közös elembe csomagoljuk a dobozokat -> egymás mellett vízszintesen
+régi módszer -> float-left: tartalom bal szélére kerül, mellette a tartalom körefuthat
+	oszlopok magassága nem jó, doboz addig tart amíg a tartalom - fix magasság
+	DE nem tudhatod mekkora lesz a tartalom
+oszlopnak tudniuk kell h a másik mekkora -> floattal nem jó
+
+------------------------------------------------------------------------------------
+
+drótváztervek: ápr 15re beadni
+- tartalom nélkül
+- oldal elrendezését közvetíti
+- könnyebb módosítani
+- Gépi környezet blokkolhatja a kreativitást: ps -> gimp, ha ps-hez vagy hozzászokva akk kevésbé színvonalas munkát tudsz gimpben elõször létrehozni
+	papíron lerajzolva nem blokkol semmi - elfogadják
+- vázlatos: nem tudod mit akar belerakni a másik
+- kísértés túlzott kidolgozásra: programot használjunk rá (lumzy)
+
+min 2 mintakép: kezdõoldal + 1 aloldal + ha van kül aloldalak között akk azt is
+
+------------------------------------------------------------------------------------
+
+menü:
+menüpontok kattintható dobozok legyenek
+mindegyikre külön lehessen kattintani
+a-ból doboz operálni (ne csak a szövegre kattintva?)
+
+------------------------------------------------------------------------------------
+
+bootstrap:
+gyárilag kész css-gyûjtemény
+reszponzív oldalhoz
+
+------------------------------------------------------------------------------------
+
+ûrlap kell a honlapba
+nem mûködnek, csak egy felület lesz

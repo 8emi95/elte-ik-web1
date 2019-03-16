@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<title>Triviális Algebra - A lineáris algebra történelme</title>
+		<meta charset="utf-8">
+		<script type="text/javascript">
+			function changeCSS(cssFile, cssLinkIndex) {
+			var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+			var newlink = document.createElement("link");
+			newlink.setAttribute("rel", "stylesheet");
+			newlink.setAttribute("type", "text/css");
+			newlink.setAttribute("href", cssFile);
+ 			document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+			}
+		</script>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link href='https://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<header>
+			Triviális Algebra
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="index.html">Kezdőoldal</a></li>
+				<li><a href="#">A linalg történelme</a></li>
+				<li><a href="kidolgozas.html">Kidolgozások</a></li>
+				<li><a href="felmero.html">Felmérő</a></li>
+				<li><a href="kapcsolat.html">Kapcsolat</a></li>
+			</ul>
+		</nav>
+		<section id="main">
+			<article>
+				<h1>A lineáris algebra történelme</h1>
+				<h2>Az igény megjelenése</h2>
+				<p>
+					A matematika ezen ága nem olyan idős mint valamennyi egyéb,
+					azonban az igény létezésére nagyon régóta megvan. Már az ókori
+					babiloni időkben is keresték a több ismeretlenes egyenletek
+					megoldását, mely kisebb számolásoknál kivitelezhető, de nagyobb
+					rendszerek átlátása így nehézkes volt. 
+					
+					<br>Az első próbálkozás a lineáris algebra megteremtésére  2000 évvel 
+					ezelőttről, Kínából származik, mely már tartalmazott a ma ismert <cite>Gauss 
+					eliminációhoz</cite> hasonló módszert, sőt, magát <abbr title="Carl Friedrich Gauss">
+					<cite class="writer">Gauss</cite></abbr>-t is ez inspirálta.
+				</p>
+				<figure>
+					<a href="gauss.jpg" title="Gauss képének megtekintése nagyobb változatban">
+					<img src="gaussthumb.jpg" alt="Gaussról egy kicsinyített kép" class="center">
+					</a>
+					<figcaption>Carl Friedrich Gauss</figcaption>
+				</figure>
+				<h2>Az első próbálkozások</h2>
+				<p>
+					Sőt, tőle származik a determináns kifejezés is, bár maga a definíció
+					idősebb annál.
+					
+					<br> A <cite>determináns</cite>okhoz köthető maga <cite class="writer">Cauchy</cite> 
+					is, aki az analízis területén volt nevesebb, de lineáris algebrából is mondott ki fontos tételeket.
+				</p>
+				<figure>
+					<a href="cauchy.jpg" title="Cauchy képének megtekintése nagyobb változatban">
+					<img src="cauchythumb.jpg" alt="Cauchyról egy kicsinyített kép" class="center">
+					</a>
+					<figcaption>Augustin Louis Cauchy</figcaption>
+				</figure>
+				<h2>A modern lineáris algebra</h2>
+				<p>
+					A modern lineáris algebra a  19. századhoz tartozik.
+					<abbr title="Gottfried Wilhelm Leibniz"><cite class="writer">Leibniz</cite>
+					</abbr> nevéhez fűződik a <cite>lineáris tér</cite>
+					fogalma, ám írásaira halála után,  1883-ban írtak ki pályázatot,
+					melynek célja a benne leírtak általánosítása volt.  1843-ban újabb
+					jelentős lépéseket <abbr title="William Rowan Hamilton"><cite class="writer">
+					Hamilton</cite></abbr> tett a <cite>kvaterniók</cite>
+					bevezetésével. Hozzá tartozik a <cite>vektor</cite> szó megalkotása.
+					Hamilton már a komplex számokat is vektorterek segítségével írta le.
+				</p>
+				<figure>
+					<a href="Hamilton.jpeg" title="Hamilton képének megtekintése nagyobb változatban">
+					<img src="hamiltonthumb.jpg" alt="Hamiltonról egy kicsinyített kép" class="center">
+					</a>
+					<figcaption>William Rowan Hamilton</figcaption>
+				</figure>
+				<p>
+					Bár a <cite>determináns</cite> fogalma (lényegében a kifejtési tételre alapozott induktív
+					definícióval) már korábban is ismert volt, az egyik legalapvetőbb lineáris 
+					algebrai fogalom, a <cite>mátrix</cite>é (amely igazából alapvetőbb a determinánsénál), a 
+					mátrixműveleti szabályokkal együtt, csak 1857-ben nyert polgárjogot <abbr title="Arthur Cayley">
+					<cite class="writer">Cayley</cite></abbr>
+					nyomán (aki a 2×2-es mátrixokat és műveleteit vezette be). <cite class="writer">James Sylvester</cite>
+					 1884-ben
+					definiálta a rang fogalmát mátrixokra.
+				</p>
+				<h2>Alkalmazásai</h2>
+				<p>
+					A huszadik században a lineáris algebra rengeteg alkalmazást nyert, nemcsak a 
+					matematikán belül, de a fizikában is. A „műszaki” életben pedig megkerülhetetlenek. Ha 
+					egy mérnök a folytonosság szemléletétől és problémáitól mentes (azaz diszkrét jellegű) feladat 
+					elé kerül, igen valószínű, hogy a megoldásban előbb-utóbb megjelennek valahol a lineáris algebrai 
+					fogalmak is - ezek megjelenése természetesen a „folytonosság” megléte esetén sem kizárt.
+				</p>
+				<p>
+					Forrás: <a href="https://hu.wikipedia.org/wiki/Line%C3%A1ris_algebra#T.C3.B6rt.C3.A9nelem">Wikipédia</a>
+				</p>
+				<aside>
+					<dl>
+						<dt>Gauss-elimináció:</dt>
+							<dd>Lineáris egyenletrendszerek megoldására alkalmazott algoritmus</dd>
+						<dt>Determináns:</dt>
+							<dd>Egy négyzetes mátrixhoz rendelhető elem, mely számos tulajdonságát leírja a mátrixnak.</dd>
+						<dt>Lineáris tér:</dt>
+							<dd>A vektortér fogalmával megegyezik.</dd>
+						<dt>Kvaterniók:</dt>
+							<dd>Egy komplex számokon is túlmutató matematikai struktúra</dd>
+						<dt>Mátrix:</dt>
+							<dd>Egy matematikai kifejezés, mely egy téglalapszerű adattárolásra hasonlít.</dd>
+					</dl>
+				</aside>
+			</article>
+			<br>
+			<footer>
+				<a href="#" onclick="changeCSS('style.css', 0);">Normál</a>
+				<a href="#" onclick="changeCSS('styles2.css', 0);">Látássérült</a>
+			</footer>
+		</section>
+	</body>
+</html>

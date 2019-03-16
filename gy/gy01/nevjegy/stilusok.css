@@ -1,0 +1,86 @@
+html
+{
+	background: linear-gradient(#555, #eee);
+}
+
+body
+{
+	background-color: white;
+	color: #222;
+	max-width: 600px;
+	margin: 2% auto;
+	padding: 2%;
+	border-radius: 15px;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+h1, h2, h3
+{
+	font-weight: normal;
+	font-family: Georgia, serif;
+}
+
+h1
+{
+	font-size: 250%;
+	color: #E14F5F;	
+}
+
+h2
+{
+	font-size: 150%;
+	color: #32BEA6;
+
+}
+
+h3
+{
+	font-size: 130%;
+}
+
+h2 img
+{
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+table
+{
+	border-width: 0px;
+	margin: auto;
+	width: 100%;
+	border-spacing: 2px;
+}
+
+th, td
+{
+	border-width: 0px;
+	padding: 4px;
+	text-align: center;
+}
+
+th
+{
+	background-color: #aaa;
+}
+
+td
+{
+	background-color: #ddd;
+}
+
+ul {width: 350px; margin: 0 auto;}
+
+li {text-align: left; margin-top: 10px;}
+
+a
+{
+	font-weight: bold;
+	color: #DF2C2C;
+}
+
+a:visited
+{
+	color: #D88282;
+}

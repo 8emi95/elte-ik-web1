@@ -1,0 +1,42 @@
+validator.w3.org
+
+bekezdésszerû blokk
+inline elemek - gyárilag nem kapnak sortörést
+pucér szöveg - sortörésbe kell rakni, blokk/bekezdés jellegû elembe
+képek - kötelezõ leírás
+
+honlapfeltöltés:
+ingyenes, fizetõs tárhelyek
+olcsó saját domain (3e/év) vmi.hu
+
+**********************
+sziklakórház:
+
+sziklakorhaz.eu
+utolsó alkalom formázás nélkül, legközelebb css
+
+képek táblázatba? de
+reszponzív honlap: kis felbontás, 3. alulra -> közös bekezdésbe, szóként viselkednek
+
+cellaösszevonás: nyító tagbe
+- több oszlopra: column span /oszlop kiterjesztés/ colspan
+- több sorra: függõleges kiterjeszté, minden cellát elsõ elõfordulásnál kell definiálni
+kódban nem látszik h egymás mellett van (10-11 naprendszer)
+
+több szintû felsorolás:
+<ul>
+   <li>Kávé</li>
+   <li>Tea
+       <ul>
+         <li>Fekete tea</li>
+         <li>Zöld tea</li>
+       </ul>
+   </li>
+   <li>Bor</li>
+</ul>
+
+- Kávé
+- Tea
+	+ Fekete tea
+	+ Zöld tea
+- Bor

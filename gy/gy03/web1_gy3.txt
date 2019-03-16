@@ -1,0 +1,18 @@
+html kódot validálni kell
+honalpot web szerverre kell felmásolni
+
+statikus honalpok készítése
+
+bead: ûrlap
+
+css: böngészõ által kínált alapformátumokat meg lehet változtatni
+elemekhez formázást tudunk rendelni
+css kódot html-be ágyazni -> beadban nem fogadják el
+headbe lehetne rakni utasítások
+<link rel="stylesheet" type="text/css" href="stilusok.css"> //html jegyzetbõl
+
+megnevezek egy tag-et, megmondom h alapértelmezetten túl milyen formátumot kapjon
+
+
+html: <tag class="vmi" ...>
+css: tag.vmi

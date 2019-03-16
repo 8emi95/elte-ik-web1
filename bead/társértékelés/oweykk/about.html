@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>ChallengeMe</title>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" href="style.css">
+	  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<nav>
+			<div class="menu"> <a href="index.html" > MainPage </a> </div>
+			<div class="menu"> <a href="gallery.html" > Gallery </a> </div>
+			<div class="menu"> <a href="links.html" > Links </a> </div>
+			<div class="menu"> <a href="about.html" > ChallengeMe </a> </div>
+		</nav>
+		<article>
+			
+			<header>
+				<img class="title_pic" alt="Hearthstone felirat" src="header.png">
+			</header>
+			
+			
+			<section>
+				<form action="mailto:level.csoki@gmail.com" method="post">
+				<fieldset>
+					<legend>Challenge</legend>
+					<label>Name:</label>
+					<br>
+					<input type="text" name="name" id="name" maxlength="20" required>
+					<br>
+					<br>
+					<label>Challenge type:</label>
+					<br>
+					<input type="radio" name="type" value="sloth" checked> Normal<br>
+					<input type="radio" name="type" value="site"> Ranked<br>
+					<input type="radio" name="type" value="other"> TavernBrawl<br>
+					<br>
+					<label>Character you using</label>
+					<br>
+					<select name="character">
+						<option value="hunter">Hunter</option>
+						<option value="mage">Mage</option>
+						<option value="warrior">Warrior</option>
+						<option value="paladin">Paladin</option>
+						<option value="druid">Druid</option>
+						<option value="shaman">Shaman</option>
+						<option value="warlock">Warlock</option>
+						<option value="priest">Priest</option>
+						<option value="rouge">Rouge</option>
+					</select>
+					<br>
+					<br>
+					<label>Chalenge now?</label>
+					<input type="checkbox" name="priority" value="important"> Now<br>
+					<br>
+					<label><strong>Message to me:</strong></label>
+					<br>
+					<textarea cols="50" rows="10" placeholder="Message here!" id="message" name="message" required></textarea>
+					<br>
+					<input type="submit" value="Send">
+					<input type="reset" value="Reset">
+				</fieldset>
+			</form>
+			</section>
+			<footer>
+				<p>Készítette: Csóka Levente</p>
+			</footer>
+		</article>
+		
+		
+	</body>
+</html>

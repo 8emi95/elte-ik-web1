@@ -1,0 +1,59 @@
+honlapszerkesztés
+1.
+2. szerkesztõprogrammal
+
+alapnyelvek megismerése (html, ccs)
+html - szerkezet/logikai felépítés
+css -
+órán kódolást - nyers kód
+
+web-ergonómia: jól használható honlap legyen
+egyenlõ esély: fogyatékossággal élõknek, szöveges leírás videókhoz
+beadhoz kellenek (ea-n)
+
+moodle: beadandó feltöltése, bejelentkezési adatok
+wiki: hallgatói cikkek
+blog: hallgatói cikkek, blogbejegyzésért pluszpont
+
+bead: honlap, excelben követelmények (pontszámot ki kell számolni), pont arra h pontoztad a honlapot (szakmailag mennyire helytálló)
+egy héttel elõtte vázlat leadása (oldalszerkezet) - ceruzával is jó
+2 másik hallgató honlapjának lepontozása - pont jár érte
+bármilyen szerverre feltölthetõ, hivatalos honlapra fel kell tölteni
+
+gyakorlati anyagok:
+padlet.com/bernatp/webfejlesztes1
+fellebbezés rovat
+
+*******************************gy1 (gy2-n html, utána css)*******************************
+névjegykártyának megfelelõ honlap
+
+karakterkódolás: Encoding- UTF8
+
+view > word wrap - sortörés
+
+legkésõbb megnyitott taget kell legelõször bezárni
+
+felsorolás = számozatlan lista
+egymásba ágyazás - enternek a kódban nincs jelentése
+ordered list <ol>
+list item <li>
+
+rendezetlen lista
+unordered list <ul>
+
+táblázat: háromszintû
+border="1" - elavult, css-sel szokták
+<td> table data cell
+<tr> table row - tudjuk sorokba tagolni a cellákat
+fejléccella: <th> table header (css-sel összes th-t meg lehet szólítani)
+
+<strong> félkövér - css-sel át lehet írni pirosra
+<em> dõlt
+
+<img...> nincs párja mert nem szövegformátum, tulajdonság kell (beállítások sorrendje tetszõleges)
+kötelezõ:
+- src forrás, C:... nem jó, mappaszerkezeten belül fájlnév kiterjesztés
+- alt kulcsszó/alternatív szöveg, kötelezõ
+nem köt:
+- height, arányosan csökkenti/növeli
+külön sorba külön bekezdéssel kell

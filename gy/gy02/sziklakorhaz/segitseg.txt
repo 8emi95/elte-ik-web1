@@ -1,0 +1,7 @@
+== Több oldal és menü ==
+
+Miután a kezdõoldalt elkészítettük, annak másolataiként hozzunk létre a többi oldalt, amelyekben azután a szükséges részeket módosítsuk (menühivatkozások és menü alatti tartalom).
+
+== Galéria ==
+
+A bélyegképek egyetlen bekezdésben legyenek, legyenek kattinthatók, és a megfelelõ kép nagyméretû változatára hivatkozzanak.

@@ -1,0 +1,1 @@
+A javascript cookie-t használ, ezért csak a honlap szerverre történõ feltöltése után mûködik jól!

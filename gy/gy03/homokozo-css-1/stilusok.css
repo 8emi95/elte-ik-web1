@@ -1,0 +1,100 @@
+h1
+{
+	/*mindig egyszvasak kötõjellel*/
+	color: blue; /*; végén, elválasztásnál is*/
+	font-size: 300%; /*3xosa lesz*/
+	/*font-family: Verdana, sans-serif; /*betûcsaládot mindig meg kell adni, verdana talpatlan*/
+	/*google: kölcsönveszed netrõl, google.com/fonts Script - Latin Extended (ékezet) - lobster - quick-use */
+	font-family: 'Lobster', cursive;
+	border-left: 10px solid blue; /*öszefolyik - padding*/
+	padding: 10px;
+}
+
+h2 /*mind változik - wordben stílusok*/
+{
+	color: red;
+	font-size: 150%;
+}
+
+h2.fontos
+{
+	font-style: italic;
+}
+
+p
+{
+	text-align: justify; /*sorkizárás - címsorokra, cellákra is lehet használni text-alignt*/
+}
+
+p.kiemelt /*1. bekezdésnél a kép is belekerül vmiért*/
+{
+	width: 50%; /*szülõelem szélességéhez képest*/
+	margin: auto;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+/*
+http://www.w3schools.com/css/css_boxmodel.asp
+bármelyik html elemt dobozként tekinthetem
+padding - belsõ margó / bélés
+border - keret
+margin - legyen-e egy tér ahova többi elem nem férhet
+dobozt h helyezem el az oldalon
+border-width: 3x stb... stylenál és colornál is */
+
+img
+{
+	border: 5px solid orange;
+	padding: 15px;
+	/*margin: 15px; /*bekezdés szélével nincs szinkronban*/
+	/*float: left; /*osztály felülbírálja úh felesleges*/
+}
+
+img.jobbra
+{
+	float: right;
+	margin-left: 15px;
+}
+
+img.balra
+{
+	float: left;
+	margin-right: 15px;
+}
+
+html /*body ebbe van ágyazva, html külsõ body belsõ*/
+{
+	background-color: #ffffad; /*színkód: képszerkesztõnél, weben*/
+}
+
+body /*egészet doboznak tekinti*/
+{
+	background-color: white;
+	max-width: 800px;
+	min-width: 500px;
+	width: 80%; /*80% befoglaló elem méretéhez képest (itt html, függ böngészõablak méretétõl) 600 px böngészõablak méretétül függetlenül ennyi marad*/
+	margin: auto; /*doboz elhelyezése külön sorba középre*/
+	padding: 15px;
+}
+
+/* csak egy elõfordulás formázása
+NEM ELFOGADOTT: html kódban megkeresem azt az egy elemet, beírom tagbe h style="", css nyelven be lehet írni formátumot
+nem fogadják el mert stílusok frissítése macerás
+hmtl kódba class="fontos", h2.fontos a h2 alá */
+
+a
+{
+	color: red;
+	text-decoration: none;
+}
+
+a:hover /*rámutatás - pszeudo-osztály, gyárilag létezik, nem igazi osztály, nem én vezettem be, azért :*/
+{
+	text-decoration: underline;
+}
+
+a:visited /*meglátogatott link*/
+{
+	color: brown;
+}

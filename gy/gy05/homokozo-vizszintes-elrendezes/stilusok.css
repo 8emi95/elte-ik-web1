@@ -1,0 +1,49 @@
+body
+{
+	background-color: darkgrey;
+}
+
+main
+{
+	margin: 20px auto;
+	max-width: 1000px;
+	min-width: 700px;
+}
+
+header, nav, aside, section, footer
+{
+	padding: 5px;
+	border: 1px solid black;
+	margin: 3px;
+	background-color: white;
+}
+
+#box /*# azonosító*/
+{
+	display: flex; /*box gyerekeit elrendezi vhogy, felfűzi egy láncra, lánc függőleges/vízszintes + elemek...*/
+	flex-direction: row;
+	/*column: */
+	/*row: */
+	align-items: stretch;
+	/*flex-start: kezdőponthoz igazíta, tartalomszélességig érnek*/
+	/*flex-end: másik oldalt*/
+	/*center: */
+	/*stretch: */
+}
+
+/*szélességben szabályozás*/
+section
+{
+	flex: 3; /*arányszámok (3-1-1), relatív szélességmegadás, nem kell pixel*/
+}
+
+nav
+{
+	flex: 1; /*2 szélességét megadom, 3. felx 1 -> ez is jó*/
+	/*width: 200px;*/
+}
+
+aside
+{
+	flex: 1;
+}

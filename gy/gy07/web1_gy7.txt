@@ -1,0 +1,9 @@
+reszponzív oldal: felbontásonként máshova kerülnek az elemek
+
+reszponzív menü:
+kezdõlap menüpontja mindig látható legyen
+bizonyos felbontás alatt többi tûnjön el, oldalt lenyitható menüben legyen
+javascript: tudjuk figyelni h rákattint-e a menü ikonra
+rákattint -> menü osztályhoz kibont osztály, megint rákatt akk elvesszük kibont o.-t
+
+bootstrap: elõre megírt kódot tartalmazó keretrendszer (2 hét múlva) - beadhoz lehet használni

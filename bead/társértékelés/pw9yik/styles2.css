@@ -1,0 +1,156 @@
+nav a:link {
+    text-decoration: none;
+	color: #000000;
+}
+.nav a:link{
+	text-decoration: none;
+	color: white;
+}
+nav a:visited {
+    text-decoration: none;
+	color: #000000;
+}
+.nav a:visited{
+	text-decoration: none;
+	color: white;
+}
+a:link {
+	color: rgb(80, 255, 4);
+}
+a:visited {
+	color: rgb(255, 125, 129);
+}
+.head, header {
+	font-family: 'Patrick Hand SC', cursive;
+	font-size:600%;
+	text-align: center;
+	color:white;
+}
+.nav, nav{
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	margin-left: 50%;
+	left : -315px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.main, #main {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:80%;
+	text-align: justify;
+	position: absolute;
+	margin-left: 50%;
+	left : -390px;
+	width: 760px;
+    padding:10px;
+	font-size:100%;
+    border:1px solid white;
+	color: white;
+	background-color:black;
+}
+
+.nav ul, nav ul /*menü szerkezet kialakítása*/
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+.nav li a, nav li a /*menü formai követelményei*/
+{
+	position:relative;
+	display: block;
+	background-color: white;
+	border:1px solid black;
+	padding: 14px; /*függőleges középre igazítás*/
+	text-decoration: none;
+	text-align: center;
+}
+
+.nav li a, nav li a:hover /*rajta van az egér*/
+{
+	color: white;
+	background-color: black;
+}
+
+.nav li a[href="#"], nav li a[href="#"] /*éppen látogatott oldal*/
+{
+	color: white;
+	background-color: black;
+}
+aside{
+	font-size: 80%;
+}
+aside dt{
+	font-style: italic;
+}
+cite.writer{
+	font-size: 120%;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+details{
+		text-align: center;
+}
+
+body{
+	background-color: black;
+}
+
+.nope, .pipe{
+	width: 40px;
+}
+
+#panda1{
+	width: 200px;
+}
+
+table#kidolgozas{
+	border:1px solid white;
+	text-align: center;
+	border-collapse:collapse;
+}
+
+table#kidolgozas th{
+	border:1px solid white;
+}
+
+table#kidolgozas td{
+	text-align: center;
+	border:1px solid white;
+}
+.save{
+	width: 20px;
+}
+
+.center {
+    margin: auto;
+    width: 200px;
+}
+
+h1{
+	font-size:150%;
+}
+h2{
+	font-size:120%;
+}
+
+figure{
+	text-align: center;
+}
+video{
+	display:block;
+	margin: 0 auto; 
+	width: 400px; 
+}
+.kozep
+{
+	text-align: center;
+}

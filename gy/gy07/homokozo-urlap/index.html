@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <title>Konferencia regisztráció</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+		<p>Kedves Látogatónk! A konferenciára az alábbi adatok megadásával tud regisztrálni.</p>
+        <form method="post" action="mailto:gipsz@jakab.hu"> <!--emailt nem fogja elküldeni-->
+			<fieldset>
+			<legend>Személyes adatok</legend>
+			<p>
+				<label for="nev">Név*:</label><br> <!--label for beugrasztja a beviteli mezőbe "Név*:" szövegre kattintva-->
+				<input type="text" id="nev" name="name" size="50" required> <!--name-value párok, nevet én valuet felh adja meg-->
+			</p>
+			<p>
+				<label for="jelszo">Jelszó*:</label><br>
+				<input type="text" id="jelszo" name="pwd" size="10" required>
+			</p>
+			<p>
+				<label for="email">E-mail cím*:</label><br>
+				<input type="text" id="email" name="mail" size="30" required>
+			</p>
+			<p>
+				<label for="tel">Telefonszám:</label><br>
+				<input type="text" id="tel" name="phone" size="20" placeholder="+36(99)123-456">
+			</p>
+			<p>
+				<label for="honlap">Honlap címe (ha van):</label><br>
+				<input type="text" id="honlap" name="site" size="30">
+			</p>
+			</fieldset>
+			<fieldset>
+			<legend>Műhelyfoglalkozás</legend> <!--rádiógomboknál ua minden name, csak 1re lehet kattintani-->
+			<p>Kérjük válassza ki, melyik műhelyfoglalkozáson venne részt!</p>
+			<p>
+				<input type="radio" name="vegzettseg" value="web" id="web" checked>
+				<label for="web">Akadálymentes webalkalmazások készítése</label><br>
+				<input type="radio" name="vegzettseg" value="html" id="html">
+				<label for="html">Akadálymentes HTML alapú oktatóanyagok készítése</label><br>
+				<input type="radio" name="vegzettseg" value="flash" id="flash">
+				<label for="flash">Akadálymentes Flash alapú oktatóanyagok készítése</label>
+			</p>
+			</fieldset>
+			<fieldset>
+			<legend>Választható programok</legend>
+			<p>Kérjük válassza ki, milyen fakultatív programon venne részt!</p>
+			<p>
+				<input type="checkbox" id="bor" name="bor" value="bor">
+				<label for="bor">Borkóstolás</label><br>
+				<input type="checkbox" id="kastely" name="kastely" value="kastely">
+				<label for="kastely">Kirándulás a közeli kastélyba</label><br>
+				<input type="checkbox" id="furdo" name="furdo" value="furdo">
+				<label for="furdo">Kirándulás a közeli gyógyfürdőbe</label>
+			</p>
+			</fieldset>
+		</form>
+		<input type="submit" value="Elküld">
+		<input type="reset" value="Alaphelyzetbe állít">
+    </body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<title>Kérdőív | Testépítés</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="stilus.css" title="default">
+		<link rel="alternate stylesheet" type="text/css" href="akadalymentes.css" title="alternate">
+		<script type="text/javascript" src="styleswitcher.js"></script>
+	</head>
+	<body>
+		<div id="wrap">
+			<header>
+				<a href="#" onclick="if (getActiveStyleSheet() == 'alternate') setActiveStyleSheet('default'); else setActiveStyleSheet('alternate'); return false;"><img src="img/akadalymentes.jpg" alt="Váltás akadálymentes verzióra"></a>
+				<a href="#tartalom" style="position:absolute; left:-9999px;">Ugrás a tartalomra</a>
+				<p id="fejlec">Testépítés</p>
+			</header>
+
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html" id="kezdolap">Kezdőlap</a></li>
+					<li><a href="gyakorlatok.html">Gyakorlatok</a></li>
+					<li><a href="termek.html">Edzőtermek</a></li>
+					<li><a href="#" id="akt">Kérdőív</a></li>
+				</ul>
+			</nav>
+			
+			<nav id="nyomvonal">
+				<ul>
+					<li>&gt;&gt; Kérdőív</li> 
+				</ul>
+			</nav>
+
+			<div id="tartalom">
+				<section>
+					<h1>Kérdőív</h1>
+					<p>Az alábbi kérdőívvel szeretnénk felmérni, hogy korosztályonként melyik edzőtermet látogatják a legtöbben, illetve azt, hogy melyek a legkedveltebb gyakorlatok.</p>
+					<form method="post" action="mailto:8emi95@inf.elte.hu">
+						<fieldset>
+						<legend>Személyes adatok</legend>
+						<p>Kérlek, adj meg néhány személyes adatot!</p>
+						<p>
+							<label for="nev">Név:</label><br>
+							<input class="textbox" type="text" id="nev" name="name" placeholder="Gyúrós Benő" maxlength="30">
+						<p>
+							<label for="kor">Életkor: *</label><br>
+							<select size="1" name="age" id="kor">
+								<option value="gyerek" selected>0-9</option>
+								<option value="tizen">10-19</option>
+								<option value="huszon">20-29</option>
+								<option value="harmincas">30-39</option>
+								<option value="negyvenes">40-49</option>
+								<option value="otvenes">50-59</option>
+								<option value="hatvanas">60-69</option>
+								<option value="hetvenes">70-79</option>
+								<option value="nyolcvanas">80-89</option>
+								<option value="kilencvenes">90-99</option>
+								<option value="hardcore">100-</option>
+							</select>
+						</p>
+						<p>
+							<label for="email">E-mail cím: *</label><br>
+							<input class="textbox" type="text" id="email" name="mail" placeholder="ilovemuscles@izom.hu" maxlength="30" required>
+						</p>
+						<p id="csillag">* A mező kitöltése kötelező</p>
+						</fieldset>
+	
+						<fieldset>
+						<legend>Melyik edzőterembe jársz?</legend>
+						<p>Ha nincs a listában az általad látogatott terem, akkor válaszd az egyéb opciót.</p>
+						<p>
+							<input type="radio" name="gym" value="gilda" id="gilda" checked>
+							<label for="gilda">Gilda Max</label><br>
+							<input type="radio" name="gym" value="mecca" id="mecca">
+							<label for="mecca">Mecca</label><br>
+							<input type="radio" name="gym" value="vida" id="vida">
+							<label for="vida">Vida Fitness</label><br>
+							<input type="radio" name="gym" value="flex" id="flex">
+							<label for="flex">Flex Gym</label><br>
+							<input type="radio" name="gym" value="bodybuilder" id="bodybuilder">
+							<label for="bodybuilder">BodyBuilder Gym</label><br>
+							<input type="radio" name="gym" value="other" id="other">
+							<label for="other">egyéb</label>
+						</p>
+						</fieldset>
+	
+						<fieldset>
+						<legend>Mi a kedvenc gyakorlatod?</legend>
+						<p>Többet is választhatsz.</p>
+						<p>
+							<input type="checkbox" id="fekvenyomas" name="fekvenyomas" value="fekvenyomas">
+							<label for="fekvenyomas">Fekvenyomás</label><br>
+							<input type="checkbox" id="oldalemeles" name="oldalemeles" value="oldalemeles">
+							<label for="oldalemeles">Oldalemelés</label><br>
+							<input type="checkbox" id="fureszeles" name="fureszeles" value="fureszeles">
+							<label for="fureszeles">Fűrészelés</label><br>
+							<input type="checkbox" id="koncentralt" name="koncentralt" value="koncentralt">
+							<label for="koncentralt">Koncentrált bicepszgyakorlat</label><br>
+							<input type="checkbox" id="lorugas" name="lorugas" value="lorugas">
+							<label for="lorugas">Lórúgás</label><br>
+							<input type="checkbox" id="csuklobehuzas" name="csuklobehuzas" value="csuklobehuzas">
+							<label for="csuklobehuzas">Csuklóbehúzás</label><br>
+							<input type="checkbox" id="haspres" name="haspres" value="haspres">
+							<label for="haspres">Hasprés</label><br>
+							<input type="checkbox" id="guggolas" name="guggolas" value="guggolas">
+							<label for="guggolas">Guggolás</label><br>
+							<input type="checkbox" id="vadlilabtolon" name="vadlilabtolon" value="vadlilabtolon">
+							<label for="vadlilabtolon">Vádli lábtolón</label>
+						</p>
+						</fieldset>
+
+						<div id="gomb">
+						<input type="submit" value="Elküld">
+						<input type="reset" value="Alaphelyzet">
+						</div>
+					</form>
+				</section>
+			</div>
+		</div>
+	</body>
+</html>

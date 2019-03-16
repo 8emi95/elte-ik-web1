@@ -1,0 +1,135 @@
+/* Oldalszerkezet */
+
+body
+{
+	background-color: #DEB887;
+}
+
+main
+{
+	width: 80%;
+	max-width: 900px;
+	min-width: 450px;
+	border: 1px solid black;
+	margin: auto;
+}
+
+main>header, main>nav, main>section, main>footer
+{
+	padding: 10px;
+}
+/*header: igazi fejlécet és cikkek fejlécét is formázná*/
+main>header /*azon headerök, melyek szülője main*/
+{
+	background-color: yellow;
+	/*padding: 1px; /*eltűnteti a rést*/
+	/*border: 1px solid black; /*ugyanúgy kitölti mint paddingnél*/
+	/*overflow: hidden; /*ha se padding se border nem kell*/
+}
+/*kihagyás keletkezik -> h1 margója kilóg a headerön*/
+
+main>nav
+{
+	background-color: salmon;
+}
+
+main>section
+{
+	background-color: white;
+}
+
+main>footer
+{
+	background-color: brown;
+}
+
+/* Általános */
+
+h1
+{
+	color: green;
+}
+
+h2
+{
+	color: orange;
+	font-size: 130%;
+	margin-top: 1em; /* a betűmérethez képest */
+	margin-bottom: 0.3em; /* a betűmérethez képest */
+}
+
+p
+{
+	text-align: justify;
+}
+
+a
+{
+	color: red;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+a:visited
+{
+	color: brown;
+}
+
+/* Specifikus */ /*külön formázási szabályok csak bizonyos tartományra*/
+
+/*dátumokat tartalmazó paragrafusok, osztály v azonosító nélkül: közvetlen gyerekséget jelenti, ha beszúrok még egy réteget akk megszűnne a gyerekség*/
+/*main>section>article>header>p
+{
+	color: gray;
+	text-transform: uppercase;
+	font-size: 80%;
+	margin-top: 0px;
+}*/
+
+main>section header p /*szóköz: leszármazás jele; azon p-k, melyek olyan headerben vannak, amelyek olyan sectionben vannak, amely szülője main*/
+{
+	color: gray;
+	text-transform: uppercase;
+	font-size: 80%;
+	margin-top: 0px;
+}
+
+main>section article footer /*csak sectionön belüli articleöket érint*/
+{
+	font-style: italic;
+}
+
+/*menü elkészítése: felsorolás máshol is van, vízszintes menü legyen, táblázatot csak adatok tárolására használhatok - menüben nem*/
+main>nav ul
+{
+	margin: 0px; /*gyári margója van*/
+	list-style-type: none; /*marad távolság bal oldalt - padding*/
+	padding: 0px; /*gyárilag ált nicns padding ha van margó, de listánál paddinges tartományban van a felsorolásjel*/
+}
+
+main>nav li /*main>nav>li nem jó*/
+{
+	display: inline; /*blokk típusú elemet inlinera*/
+	margin-right: 20px;
+}
+
+main>nav a, main>nav a:visited
+{
+	color: black;
+}
+
+main>nav a:hover
+{
+	color: yellow;
+	text-decoration: none; /*ne legyen aláhúzás*/
+}
+
+main>nav a[href="#"] /*akt oldal menüpontja másképp néz ki*/
+{
+	color: yellow;
+	font-weight: bold;
+}

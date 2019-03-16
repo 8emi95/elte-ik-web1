@@ -1,0 +1,111 @@
+/*mind3 html-re vonatkozik*/
+
+html
+{
+	background-image: url('img/tile.gif');
+	font-family: 'Lora', serif;
+	font-size: 120%;
+	line-height: 150%;
+	padding: 20px;
+}
+
+body /*felül nem kihagy, de?*/
+{
+	min-width: 300px;
+	max-width: 1000px;
+	width: 80%;
+	padding: 20px;
+	background-color: white;
+	margin: auto;
+}
+
+h1
+{
+	color: brown;
+	font-size: 300%;
+	font-family: 'Freckle Face', cursive;
+	text-align: center;
+}
+
+h2
+{
+	color: #336600;
+	border-bottom: 2px dashed #336600;
+	font-size: 150%;
+	width: 33%;
+}
+
+img
+{
+	border-style: solid;
+	border-color: #336600;
+	transform: rotate(-3deg);
+	margin: 5px;
+}
+
+img:hover
+{
+	border-color: brown; /*elég az alap állapothoz képesti változás*/
+}
+
+a
+{
+	color: #336600;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+a:visited
+{
+	color: #6C8752;
+}
+
+ul.elso
+{
+	list-style-type: square;
+}
+
+ul.masodik
+{
+	list-style-type: cirle;
+}
+
+h3.egyik
+{
+	color: #9E8431;
+	border-left: 5px solid #9E8431;
+	padding: 5px;
+}
+
+h3.masik
+{
+	color: brown;
+	border-left: 5px solid brown;
+	padding: 5px;
+}
+
+table
+{
+	border-spacing: 4px;
+	margin: auto;
+	width: 66%;
+}
+
+th
+{
+	background-color: #9E8431;
+	color: white;
+	padding: 5px;
+	width: 20%;
+}
+
+td
+{
+	background-color: #888;
+	color: white;
+	padding: 5px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<title>Triviális Algebra</title>
+		<meta charset="utf-8">
+		<script type="text/javascript">
+			function changeCSS(cssFile, cssLinkIndex) {
+			var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+			var newlink = document.createElement("link");
+			newlink.setAttribute("rel", "stylesheet");
+			newlink.setAttribute("type", "text/css");
+			newlink.setAttribute("href", cssFile);
+ 			document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+			}
+		</script>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link href='https://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<header>
+			Triviális Algebra
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="#">Kezdőoldal</a></li>
+				<li><a href="tortenelem.html">A linalg történelme</a></li>
+				<li><a href="kidolgozas.html">Kidolgozások</a></li>
+				<li><a href="felmero.html">Felmérő</a></li>
+				<li><a href="kapcsolat.html">Kapcsolat</a></li>
+			</ul>
+		</nav>
+		<section id="main">
+			<h1>Üdvözöllek a honlapomon!</h1>
+			
+			<p>Ez a lap az ELTE IK BSc hallgatóknak számára készült lineáris algebra segédlet.</p>
+
+			<h2>Mi az a lineáris algebra?</h2>
+			
+			<!-- FORRÁS: https://hu.wikipedia.org/wiki/Line%C3%A1ris_algebra -->
+			<p>A lineáris algebra a matematika azon ága, mely lineáris terekkel, vektor- vagy mátrixterekkel foglalkozik. Attól lesz ez továbbá lineáris, hogy
+			a változóknak egymással csak az algebrai összege szerepel, szorzása nem. Ez lényegesen leegyszerűsíti a dolgokat, mivel magasabb hatványú
+			változókkal alig kell foglalkoznunk.
+			<br>Az egyik legfontosabb fogalom az előbb említett <em>vektortér</em>, melynek számos fontos tulajdonságát vizsgáljuk. Ez a vektortér a középiskolában tanult
+			vektorműveletekhez hasonló összeadással és skalárral való szorzással rendelkezik, de bőven túlmutat a gimis anyagon.
+			<br>A tárgy folyamán egyenletrendszerek megoldhatóságát nagyon részletesen vizsgáljuk majd, továbbá foglalkozunk majd három dimenziós un. geometriai
+			vektorokkal is. Általánosítjuk a skaláris szorzat fogalmát, kiterjesztjük a vektorterek fogalmát más struktúrákra, stb.</p>
+			
+			<h2>Mire jó ez az informatikusnak?</h2>
+				<ul>
+					<li>Kényelmes adatkezelés</li>
+					<li>Nagyon hasonló adattárolás az informatikában</li>
+					<li>Valamennyi vektorral és mátrixal kapcsolatos művelet</li>
+					<li>Számítógépes grafika nagyban épít rá</li>
+					<li>Tanulás közben számos szokatlan struktúrára mutat példát</li>
+				</ul>
+
+			
+			<h2>Amit itt találni fogsz:</h2>
+			<ul>
+				<li>A "Linalg történelme" menüpontban röviden olvashatsz arról, hogyan alakult ki ez a tudományág.</li>
+				<li>A "Kidolgozások" menüpontban az épp készülőben lévő kidolgozásaimat, melyek szorosan követik a Szalay Mihály tanár úr készítette előadásjegyzeteket.</li>
+				<li>A "Felmérő" menüpontban egy interaktív tudástesztet, mely segíthet az anyag elméleti részének elsajátításában.</li>
+				<li>A "Kapcsolat" menüpontban valamennyi elérhetőségemet, amennyiben visszajelzésed van az oldallal/jegyzeteimmel kapcsolatban, illetve ha szeretnél
+				személyesen átbeszélni linalgos dolgokat.</li>
+			</ul>
+			
+			<h2>Magamról:</h2>
+			
+			<p>Umann Kristófnak hívnak, többnyire Husinak szólítanak, és már az egyetemre érkezésemkor megszerettem a lineáris algebrát.
+			A tárgy elvégzése után is sokat foglalkoztam vele, segítettem másoknak keresztfélévben, illetve jegyzeteket készítettem
+			melyek a nehezebb részek könnyebb megértését segítik szemléletes példákkal és részletesebb magyarázatokkal.
+			
+			<br>És nagyon, <strong>nagyon</strong> szeretem a pandákat.</p>
+			<br>
+			<figure>
+				<video controls poster="sneeze.jpg">
+					<source src="sneeze.mp4" type="video/mp4">
+					<source src="sneeze.ogg" type="video/ogg">
+					<source src="sneeze.webm" type="video/webm">
+					<p>A böngészője nem támogatja a videóállomány beágyazott lejátszását.</p>
+				</video>
+				<figcaption><i>Film hossza: 0:16<br />
+				Fentebb egy videó, melyben egy pandamama megijed a fia tüsszentésétől.</i>
+				</figcaption>
+			</figure>
+			<footer>
+				<a href="#" onclick="changeCSS('style.css', 0);">Normál</a>
+				<a href="#" onclick="changeCSS('styles2.css', 0);">Látássérült</a>
+			</footer>
+		</section>
+	</body>
+</html>
